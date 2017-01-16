@@ -16,11 +16,8 @@ A quick way to install Jekyll is to follow the [installation instructions by Dav
  3. Reopen a command prompt and install Jekyll: `gem install jekyll`
 
 Updates in the infrastructure of Ruby may cause SSL errors when attempting to use `gem install` with versions of the RubyGems package older than 2.6. (The RubyGems package installed via the Chocolatey tool is version 2.3) If you have installed an older version, you can update the RubyGems package using the directions [here.][ssl-certificate-update]
-[ssl-certificate-update]: http://guides.rubygems.org/ssl-certificate-update/#installing-using-update-packages
 
 For a more conventional way of installing Jekyll you can follow this [complete guide to install Jekyll 3 on Windows by Sverrir Sigmundarson][windows-installjekyll3].
-
-[windows-installjekyll3]: https://labs.sverrirs.com/jekyll/
 
 ## Encoding
 
@@ -125,6 +122,8 @@ There will be a warning on startup that you should include `gem 'wdm', '>= 0.1.0
 
 In the future the installation process of the github-pages should be as simple as the setup of the blog. But as long as the new version of the Nokogiri ([v1.6.8][nokogiriReleases]) is not stable and referenced, it is work to get it up and running on Windows.
 
+[ssl-certificate-update]: http://guides.rubygems.org/ssl-certificate-update/#installing-using-update-packages
+[windows-installjekyll3]: https://labs.sverrirs.com/jekyll/
 [jwillmerPost]: https://jwillmer.de/blog/tutorial/how-to-install-jekyll-and-pages-gem-on-windows-10-x46 "Installation instructions by Jens Willmer"
 [Chocolatey]: https://chocolatey.org/install "Package manager for Windows"
 [Bundler]: http://bundler.io/ "Ruby Dependencie Manager"
